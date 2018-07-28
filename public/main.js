@@ -16,6 +16,13 @@ app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
+app.get("/reserve.html", function (req, res) {
+    res.sendFile(path.join(__dirname, "reserve.html"));
+});
+app.get("/table.html", function (req, res) {
+    res.sendFile(path.join(__dirname, "table.html"));
+});
+
 app.get("/api/tables", function (req, res) {
     return res.json(Tables);
 });
