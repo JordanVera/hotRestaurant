@@ -1,8 +1,8 @@
-:root {
-	--white: #ffffff;
+.button {
+	margin: auto;
+}
+.button.warning {
+	
+color: #fff;
 }
 
-
-h1, p, .button {
-	color: var(--white);
-}
