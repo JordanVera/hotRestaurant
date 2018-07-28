@@ -1,8 +1,7 @@
 .button {
 	margin: auto;
 }
-.button.warning {
-	
-color: #fff;
-}
 
+.button.warning {	
+	color: #fff;
+}
