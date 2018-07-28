@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "js folder npm stuff",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RZ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
