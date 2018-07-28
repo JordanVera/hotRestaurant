@@ -7,21 +7,7 @@ var PORT = process.env.PORT || 3000;
 
 var Tables = [];
 
-$("#add-btn").on("click", function(event) {
-    event.preventDefault();
-    var newTable = {
-      name: $("#name").val().trim(),
-      phone: $("#phone").val().trim(),
-      email: $("#email").val().trim(),
-      unique: $("#unique").val().trim()
-    };
 
-    // Question: What does this code do??
-    $.post("/api/tables", newTable)
-      .then(function(data) {
-        console.log("index.html", data);
-      });
-  });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
