@@ -1,8 +1,0 @@
-:root {
-	--white: #ffffff;
-}
-
-
-h1, p, .button {
-	color: var(--white);
-}
