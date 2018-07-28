@@ -1,0 +1,3 @@
+Main page
+Reservation page
+Waiting table page
