@@ -1,3 +1,12 @@
 Main page
+2 tabs
+
 Reservation page
+-name
+-phone number
+-email
+-unique id
+
 Waiting table page
+-current Reservation
+-waiting list
